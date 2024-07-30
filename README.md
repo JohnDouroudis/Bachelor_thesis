@@ -11,5 +11,5 @@ Contents of zip file
      - application.py: A python flask application that predicts the sentiment of a text
 
       
-*Report
-*Presentation
+* Report
+* Presentation
