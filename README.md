@@ -1,36 +1,26 @@
 # Project Overview
 
-This project is my bachelor thesis.Its objective was to create a small application that predicts the sentiment of Tweets.
+This project is my bachelor thesis.Its objective was to create a small flask application that predicts the sentiment of Tweets for airline companies.
 
 
 **Project Steps**
 
-* Download data using the yfinance package
-* Create an initial machine learning model and estimate accuracy
-* Build a backtesting engine to more accurately measure accuracy
-* Improve the accuracy of the model
+* Explored and Preprocced Tweets 
+* Created and trained different classification models to make predictions 
+* Measured the accuracy of the models
+* Created an application that incorporates the trained models and makes predictions about the sentiment of a text
 
 ## Code
 
-You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/sp_500).
+ZIP Folder overview:
 
-File overview:
+* `app_testing` - a folder that contains everything needed for the final application.
+   * `models` -  a folder that contains all the trained models weights.
+   * `templates` - a folder that contains some simple html.
+   * `application` - a file that contains the code of the application
+   
+* `model_creation` - a folder that contains everything needed for the creation and training of the classification models.
+   * `Models_creation` -  a file that contains the code for the classification models .
+   * `tweets` - a csv file that contains the tweets we used for the training of the classification models.
+   *  it also contains the weights of the trained models
 
-* `market_prediction.ipynb` - a Jupyter notebook that contains all of the code.
-
-# Local Setup
-
-## Installation
-
-To follow this project, please install the following locally:
-
-* JupyerLab
-* Python 3.8+
-* Python packages
-    * pandas
-    * yfinance
-    * scikit-learn
-
-## Data
-
-We'll download all of the data during the project, using the `yfinance` package.
