@@ -1,15 +1,36 @@
-Contents of zip file
+# Project Overview
 
-* folder (model creation)
-     - Tweets.csv : Dataset we used
-     - Models_Creation.ipynb : An application that classiffy Tweets based on their sentiment
-     - The Classification Models we created
-     
- * folder (app testing)
-     - (folder) models : Contains trained Classification Models.
-     - (folder) templates: Contains HTML pages 
-     - application.py: A python flask application that predicts the sentiment of a text
+This project is my bachelor thesis.Its objective was to create a small application that predicts the sentiment of Tweets.
 
-      
-* Report
-* Presentation
+
+**Project Steps**
+
+* Download data using the yfinance package
+* Create an initial machine learning model and estimate accuracy
+* Build a backtesting engine to more accurately measure accuracy
+* Improve the accuracy of the model
+
+## Code
+
+You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/sp_500).
+
+File overview:
+
+* `market_prediction.ipynb` - a Jupyter notebook that contains all of the code.
+
+# Local Setup
+
+## Installation
+
+To follow this project, please install the following locally:
+
+* JupyerLab
+* Python 3.8+
+* Python packages
+    * pandas
+    * yfinance
+    * scikit-learn
+
+## Data
+
+We'll download all of the data during the project, using the `yfinance` package.
